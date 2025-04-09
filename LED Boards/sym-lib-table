@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM5164DDAT")(type "KiCad")(uri "C:/Users/tongw/OneDrive/Desktop/power gen/Heliosphere/parts/LM5164DDAT.kicad_sym")(options "")(descr "100V DCDC Converter"))
+)
