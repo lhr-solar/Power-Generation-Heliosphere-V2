@@ -921,7 +921,7 @@
 		)
 		(uuid 917f93b6-4ffd-45b8-b3ad-b5978b74bef0)
 	)
-	(text "36 V 1.05 A LEDs"
+	(text "36 V 1.05 A /LED"
 		(exclude_from_sim no)
 		(at 119.634 104.648 0)
 		(effects
@@ -930,6 +930,16 @@
 			)
 		)
 		(uuid "24e40cda-248f-44b5-979c-7a0800cf1f72")
+	)
+	(text "The VDD consists of 3 100 V power supplies in series. \nTotal: 300 V and ~1.05 A"
+		(exclude_from_sim no)
+		(at 166.116 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6fd52296-37f3-49be-9ec2-d453b3310dc8")
 	)
 	(text_box "VVD uses the IKOKKO 100 V Power Supply (can supply up to 3 A, 120 V)"
 		(exclude_from_sim no)
@@ -1050,6 +1060,28 @@
 			(type default)
 		)
 		(uuid "ef38e347-7ffa-48cd-a676-82e44588a478")
+	)
+	(global_label "LED CONTROL"
+		(shape input)
+		(at 93.98 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6181b0e-0dae-4043-9089-5d65306aac5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9071 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -1447,72 +1479,6 @@
 			(project "LED Boards"
 				(path "/e372ef32-cef9-49e1-9c36-c69f7dac307f"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b42cd1ae-ed64-45bc-b053-e81ba04ccc36")
-		(property "Reference" "#PWR017"
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06bbf9c4-bb40-43b4-b625-cee0f55ce8c5")
-		)
-		(instances
-			(project "LED Boards"
-				(path "/e372ef32-cef9-49e1-9c36-c69f7dac307f"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
