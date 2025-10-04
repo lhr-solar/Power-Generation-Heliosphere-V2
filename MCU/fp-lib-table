@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "GRM32D7U3A222JW31L 2.2nF Capacitor")(type "KiCad")(uri "C:/Users/tongw/Downloads/GRM31A7U2J222JW31D")(options "")(descr ""))
+  (lib (name "RMCF0603FT392K 392k ohm Resistor")(type "KiCad")(uri "C:/Users/tongw/Downloads/RMCF0603FT1K00 (1)")(options "")(descr ""))
+  (lib (name "ERA-2AEB4992X 49.9k ohm Resistor")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_ERA-2AEB4992X/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "RC0402FR-07158KL 158k ohm Resistor")(type "KiCad")(uri "C:/Users/tongw/Downloads/RC0402FR-07158KL")(options "")(descr ""))
+  (lib (name "STM32_L432KC Nucleo")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_STM32L432KCU3/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MLF2012C270KT000 27uH Inductor")(type "KiCad")(uri "C:/Users/tongw/Downloads/MLF2012C270KT000")(options "")(descr ""))
+  (lib (name "ECA-1HM3R3I 3.3uF Capacitor")(type "KiCad")(uri "C:/Users/tongw/Downloads/ECA1HM3R3I")(options "")(descr ""))
+)
