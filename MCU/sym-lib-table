@@ -1,4 +1,9 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TPS563200 Buck Converter")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_TPS563200DDCT/KiCADv6/2025-09-27_16-36-08.kicad_sym")(options "")(descr ""))
+  (lib (name "UCC28C42 Flyback Controller")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_UCC28C42DR/KiCADv6/2025-10-01_22-12-59.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "MMSZ5248B-7-F Diode")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_MMSZ5248B-7-F/KiCADv6/2025-10-04_15-14-17.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "SS26FL Diode")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_SS26FL/KiCADv6/2025-10-04_15-18-41.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "LM5012 Buck Converter")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_LM5012QDDARQ1/KiCADv6/2025-10-04_15-30-32.kicad_sym")(options "")(descr ""))
+  (lib (name "SB10150TA Diode")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_SB10150TA/KiCADv6/2025-10-04_15-39-20.kicad_sym")(options "")(descr ""))
+  (lib (name "ECA-2AHG2R2 2.2nF Capacitor")(type "KiCad")(uri "C:/Users/tongw/Downloads/ul_ECA-2AHG2R2/KiCADv6/2025-10-04_20-07-55.kicad_sym")(options "")(descr ""))
 )

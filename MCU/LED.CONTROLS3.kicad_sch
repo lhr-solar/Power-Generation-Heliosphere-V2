@@ -1559,7 +1559,7 @@
 		(at 121.92 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f2d95da-5b3a-490b-be34-e3b461f9f520")
+		(uuid "8a0780aa-5a5e-4ca3-acd9-47e28dc40d93")
 	)
 	(junction
 		(at 105.41 63.5)
@@ -1658,16 +1658,6 @@
 			(type default)
 		)
 		(uuid "292e723c-d1d6-46f9-99c6-86147129ff44")
-	)
-	(wire
-		(pts
-			(xy 133.35 57.15) (xy 121.92 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a04cbf6-0e44-429f-9b4c-4427700b324a")
 	)
 	(wire
 		(pts
@@ -1781,16 +1771,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 93.98 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715abc1b-abed-4351-9767-0b6cb2b4ba2d")
-	)
-	(wire
-		(pts
 			(xy 168.91 48.26) (xy 171.45 48.26)
 		)
 		(stroke
@@ -1821,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 39.37 41.91)
+			(xy 72.39 35.56) (xy 72.39 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1941,6 +1921,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec2e566-e43f-4cfc-b09f-7fe9df547582")
+	)
+	(wire
+		(pts
 			(xy 116.84 57.15) (xy 121.92 57.15)
 		)
 		(stroke
@@ -1993,7 +1983,7 @@
 	)
 	(hierarchical_label "LED3"
 		(shape input)
-		(at 39.37 41.91 270)
+		(at 72.39 39.37 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,73 +2026,6 @@
 		(uuid "fdb1a167-c86e-4782-a043-f9bdde86900b")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 113.03 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f324a1a-d938-4987-9f8e-f5f02207c557")
-		(property "Reference" "R5"
-			(at 113.03 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 113.03 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 113.03 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "132d7a11-6dbf-446f-9152-3a80fa097fad")
-		)
-		(pin "2"
-			(uuid "d2f911d3-0285-4d94-ac13-af05fa499413")
-		)
-		(instances
-			(project "MCU"
-				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AMC1301:AMC1301DWVR")
 		(at 151.13 53.34 0)
 		(unit 1)
@@ -2138,7 +2061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc1301.pdf?ts=1758128187316"
 			(at 151.13 53.34 0)
 			(effects
 				(font
@@ -2388,33 +2311,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 52.07 180)
+		(at 113.03 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e3087e1-0adb-498a-a002-6c3a0a5091a4")
-		(property "Reference" "RSHUNT3"
-			(at 94.488 50.8 0)
+		(uuid "3f019d6a-5f2a-446d-bd3f-5ee9aa1bd3fa")
+		(property "Reference" "R5"
+			(at 113.03 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "0.1"
-			(at 99.06 52.578 0)
+		(property "Value" "33"
+			(at 113.03 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 107.188 52.07 90)
+			(at 113.03 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,8 +2343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 52.07 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,8 +2352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 52.07 0)
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip TR Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 113.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,15 +2362,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "27c8983c-5b74-44d5-83e5-9751ece7d733")
+			(uuid "a9767101-a1b1-42c9-910c-b319039c7015")
 		)
 		(pin "2"
-			(uuid "7dc5f5e9-1266-439b-af69-a2dcd042dacc")
+			(uuid "861eba7d-ecaa-4ea5-b21d-73b2706541ef")
 		)
 		(instances
 			(project "MCU"
 				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
-					(reference "RSHUNT3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "LED3_MCU_CT"
 			(at 132.08 70.3579 0)
 			(effects
 				(font
@@ -2483,7 +2404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 134.62 72.39 0)
 			(effects
 				(font
@@ -2590,31 +2511,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 57.15 90)
+		(at 105.41 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7280ccb4-5188-43bd-a640-6bb245589258")
-		(property "Reference" "R6"
-			(at 113.03 59.436 90)
+		(uuid "809742b1-46f8-4594-af90-210a4794b706")
+		(property "Reference" "RSHUNT3"
+			(at 94.488 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "33"
-			(at 113.03 61.214 90)
+		(property "Value" "0.1"
+			(at 99.06 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 113.03 58.928 90)
+			(at 107.188 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,8 +2545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 57.15 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+			(at 105.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,8 +2554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 113.03 57.15 0)
+		(property "Description" "RES TR 0.1 OHM 1% 1/10W 0603"
+			(at 105.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,15 +2564,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e70e574-7af7-4d28-ae61-7e891d91c76a")
+			(uuid "0d6ff5c9-888a-4b60-bdad-b2789f7639be")
 		)
 		(pin "2"
-			(uuid "6704a2d7-c70d-429c-8574-cc28fb915d60")
+			(uuid "ebb171fc-eea9-4456-819b-eed646f5cb16")
 		)
 		(instances
 			(project "MCU"
 				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
-					(reference "R6")
+					(reference "RSHUNT3")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 39.37 38.1 0)
+		(at 72.39 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2666,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(uuid "8399468c-ee75-4007-a3bb-3362dbdd2f90")
 		(property "Reference" "#FLG03"
-			(at 39.37 36.195 0)
+			(at 72.39 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2598,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.37 33.02 0)
+			(at 72.39 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 38.1 0)
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 38.1 0)
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2624,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 38.1 0)
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,41 +2646,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 44.45 90)
+		(at 113.03 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1871caf-ad5a-4446-abae-b8378480a109")
-		(property "Reference" "R21"
-			(at 97.79 38.1 90)
+		(uuid "a6b068b3-81ef-4040-8fc6-b846cbe6faa2")
+		(property "Reference" "R6"
+			(at 113.03 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 97.79 40.64 90)
+		(property "Value" "33"
+			(at 113.03 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.79 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 113.03 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,8 +2678,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 97.79 44.45 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip TR Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,84 +2697,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dc67e3e-a62c-4219-8588-18b207d1fe50")
+			(uuid "9a67836b-2862-4f6f-b05f-f666add3a46a")
 		)
 		(pin "2"
-			(uuid "b9593564-5178-4028-a8a8-90e088cc3ea6")
+			(uuid "443e9a2d-8e2c-4509-8a72-a5ed5b025609")
 		)
 		(instances
 			(project "MCU"
 				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b35c43e6-c1e4-4574-8410-87a3f230b705")
-		(property "Reference" "C3"
-			(at 116.332 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 114.808 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.8852 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "946d7ee6-006e-4c63-9598-87a84e2fd7f6")
-		)
-		(pin "2"
-			(uuid "cabb6dce-b716-4a08-a143-a1bf0ef3e81b")
-		)
-		(instances
-			(project "MCU"
-				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
-					(reference "C3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2860,32 +2713,31 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 92.71 44.45 90)
+		(at 101.6 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd3beeb9-bec0-4b08-8848-103c108a1158")
 		(property "Reference" "TP7"
-			(at 89.408 39.37 90)
+			(at 98.298 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 89.408 41.91 90)
+		(property "Value" "Post_LED3_Test"
+			(at 97.028 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 39.37 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 39.37 0)
+			(at 101.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2755,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 92.71 44.45 0)
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,6 +2902,75 @@
 			(project ""
 				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e508f8fb-f562-4ca0-a7f3-24decab947bf")
+		(property "Reference" "C3"
+			(at 116.332 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 114.808 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 122.8852 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/Resource%20Library/Datasheet/UPY-NP0X7R_MV_100-TO-630V.pdf"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10000 pF ±5% 250V Ceramic Capacitor TR X7R 1206 (3216 Metric)"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c6a8da0-7181-4e23-bc1e-e10283224c6b")
+		)
+		(pin "2"
+			(uuid "1b6b22be-93cb-4417-81a1-c34621496f76")
+		)
+		(instances
+			(project "MCU"
+				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebfde39b-4249-4535-811b-39eeab36e7cc"
+					(reference "C3")
 					(unit 1)
 				)
 			)
