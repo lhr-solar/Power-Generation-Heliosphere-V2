@@ -4345,13 +4345,13 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 118.11 90)
+		(at 134.62 118.11 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f25bd478-9086-4160-955b-3916d0641936")
 		(property "Reference" "R4"
 			(at 134.62 111.76 90)

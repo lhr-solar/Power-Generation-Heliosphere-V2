@@ -1933,16 +1933,6 @@
 		)
 		(uuid "994baeb8-e3ba-42d8-a593-0beadd9f29a9")
 	)
-	(text "what does DIAG specifically output? need to know if i need ADC\n"
-		(exclude_from_sim no)
-		(at 139.192 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b443d433-c654-434b-95bf-cf0b6bb681aa")
-	)
 	(text "Connectors J1-3 connect power to the LED modules\nand route them back to the LED CONTROLS modules.\nThis sets the NFET up as a low-side switch."
 		(exclude_from_sim no)
 		(at 209.55 58.166 0)
@@ -2591,7 +2581,7 @@
 		)
 		(uuid "18d184f0-4627-482b-b5e6-0a7283fe5a73")
 	)
-	(label "PA3"
+	(label "PA2"
 		(at 123.19 104.14 180)
 		(effects
 			(font
@@ -2601,7 +2591,7 @@
 		)
 		(uuid "221155ab-361d-43f0-a1e6-7d290cd8527a")
 	)
-	(label "PA10"
+	(label "PA1"
 		(at 123.19 111.76 180)
 		(effects
 			(font
@@ -2621,7 +2611,7 @@
 		)
 		(uuid "294d7269-3dc2-46e5-bfeb-72747a421c7f")
 	)
-	(label "PA1"
+	(label "PA9"
 		(at 123.19 71.12 180)
 		(effects
 			(font
@@ -2651,7 +2641,7 @@
 		)
 		(uuid "3c2744ca-40fe-400c-a782-079197434f37")
 	)
-	(label "PA6"
+	(label "PA10"
 		(at 123.19 67.31 180)
 		(effects
 			(font
@@ -2771,7 +2761,7 @@
 		)
 		(uuid "98390b5d-3e7d-4ce6-be64-d274b0397c42")
 	)
-	(label "PA4"
+	(label "PA6"
 		(at 123.19 86.36 180)
 		(effects
 			(font
@@ -2781,7 +2771,7 @@
 		)
 		(uuid "a3fc805b-a93e-4084-95ee-89d0ebe20984")
 	)
-	(label "PA9"
+	(label "PA4"
 		(at 123.19 90.17 180)
 		(effects
 			(font
@@ -2791,7 +2781,7 @@
 		)
 		(uuid "a7bdccbb-0b3e-4861-8d92-435a242fc765")
 	)
-	(label "PA2"
+	(label "PA3"
 		(at 123.19 107.95 180)
 		(effects
 			(font
@@ -3336,7 +3326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND"
 			(at 219.71 139.7 0)
 			(effects
 				(font
