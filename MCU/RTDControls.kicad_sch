@@ -608,19 +608,9 @@
 		)
 		(uuid "810a28ca-7e28-4a02-8c10-f36c03e2718b")
 	)
-	(text "isolation is no longer needed\n"
+	(text "G = 2 = 1+ (100k/100k)\nRTD Resistance @ 155 C = 159.19\nRTD Resistance @ 20 C = 107.79\n\nVOUT_MAX = (5/(159.19+360)) * 159.19 * 2 = 3.066 V\nI_MIN = 9.63 mA @ 155 C\nVOUT_MIN = (5/(107.79+360)) * 107.79 * 2 = 2.304 V\nI_MAX = 10.69 mA @ 20 C"
 		(exclude_from_sim no)
-		(at 150.368 130.302 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e07b6e23-d4eb-45ed-9c29-593d1787381c")
-	)
-	(text "G = 2 = 1+ (100k/100k)\n\nVOUT_MAX = (5/(160+300)) * 160 * 2 = 3.3\nI_MIN = 10.87 mA\nVOUT_MIN = (5/(400)) * 100 * 2 = 2.5\nI_MAX = 12.5 mA"
-		(exclude_from_sim no)
-		(at 139.446 113.538 0)
+		(at 143.51 117.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
