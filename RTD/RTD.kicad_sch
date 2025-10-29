@@ -2319,7 +2319,7 @@
 		)
 		(uuid "a0bc1ef8-91eb-4af2-bf4d-727e68bd884a")
 	)
-	(text "MAX31865 CS  →  MCU SSEL (or GPIO used as CS)- PA4 SPI3_SSEL\nMAX31865 SCLK → MCU SCLK - D13 SPI3_SCLK\nMAX31865 SDI  → MCU MOSI - D11 SPI3_MOSI\nMAX31865 SDO  → MCU MISO - D12 SPI3_MISO\nMAX31865 DRDY → digital input pin (HIGH when MAX is busy\n			performing conversion. LOW when new\n			measurement is ready)- D7\n\nNot enough pins on the Current Regulating MCU. Will use another one."
+	(text "MAX31865 CS  →  MCU SSEL (or GPIO used as CS)- D3 SPI1(PA4 SPI3_SSEL)\nMAX31865 SCLK → MCU SCLK - PA5 SPI1(D13 SPI3_SCLK)\nMAX31865 SDI  → MCU MOSI - PA7 SPI1(D11 SPI3_MOSI)\nMAX31865 SDO  → MCU MISO - PA6 SPI1(D12 SPI3_MISO)\nMAX31865 DRDY → digital input pin (HIGH when MAX is busy\n			performing conversion. LOW when new\n			measurement is ready)- D7\n\nNot enough pins on the Current Regulating MCU. Will use another one."
 		(exclude_from_sim no)
 		(at 60.452 35.814 0)
 		(effects
@@ -2390,8 +2390,8 @@
 		(uuid "56c06a15-f607-4541-bdbd-00e77cec2d53")
 	)
 	(no_connect
-		(at 102.87 95.25)
-		(uuid "655e371b-3069-4076-8f50-6eaf8afe98fe")
+		(at 77.47 105.41)
+		(uuid "695ed76e-b995-44a9-81a7-6d79fdb93ef5")
 	)
 	(no_connect
 		(at 102.87 82.55)
@@ -2426,6 +2426,10 @@
 		(uuid "b7303943-222b-496f-941a-109deae65c0d")
 	)
 	(no_connect
+		(at 102.87 92.71)
+		(uuid "c767ce76-816e-4539-978c-8a020056a629")
+	)
+	(no_connect
 		(at 102.87 87.63)
 		(uuid "c7768af1-5fa3-4122-97a7-b7c28b5c42a8")
 	)
@@ -2442,10 +2446,6 @@
 		(uuid "dfe3dcec-a39f-4485-9a95-9f25b115fd82")
 	)
 	(no_connect
-		(at 102.87 85.09)
-		(uuid "f28fdb09-d9f6-41c1-8131-e84e70388ce9")
-	)
-	(no_connect
 		(at 77.47 72.39)
 		(uuid "f6f6aeeb-2960-4630-adee-15ec3b89fd3d")
 	)
@@ -2456,6 +2456,10 @@
 	(no_connect
 		(at 77.47 92.71)
 		(uuid "fddb18b5-34ff-4593-96af-81fafe25c41b")
+	)
+	(no_connect
+		(at 102.87 95.25)
+		(uuid "fedcbae3-6f94-4f61-a7cc-b4eb8154e87f")
 	)
 	(wire
 		(pts
@@ -2596,16 +2600,6 @@
 			(type default)
 		)
 		(uuid "3a49bdc2-490e-491f-ad6f-0c86a730b494")
-	)
-	(wire
-		(pts
-			(xy 102.87 92.71) (xy 104.14 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4015c7-74bf-48b1-b783-5071e94746b7")
 	)
 	(wire
 		(pts
@@ -2829,16 +2823,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 105.41) (xy 77.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b89342-070a-46cf-9922-e81778bbebc8")
-	)
-	(wire
-		(pts
 			(xy 127 78.74) (xy 128.27 78.74)
 		)
 		(stroke
@@ -2886,6 +2870,16 @@
 			(type default)
 		)
 		(uuid "cd63fa70-411b-408f-a880-0b6203548ba0")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52db887-1307-42ab-9278-1c9e10b21420")
 	)
 	(wire
 		(pts
@@ -2977,7 +2971,7 @@
 		)
 		(uuid "f7dd1b8c-fc2e-4ed3-8391-e9223cf30814")
 	)
-	(label "D13"
+	(label "PA5"
 		(at 127 83.82 180)
 		(effects
 			(font
@@ -2987,17 +2981,7 @@
 		)
 		(uuid "0363e579-b022-4660-b640-5cc68b314f95")
 	)
-	(label "PA4"
-		(at 104.14 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "038acbb0-12f1-4680-951d-46f61ff99599")
-	)
-	(label "D12"
+	(label "PA6"
 		(at 76.2 107.95 180)
 		(effects
 			(font
@@ -3005,17 +2989,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "15275d82-30d7-4509-9ef4-5fdbc86deedf")
-	)
-	(label "D11"
-		(at 76.2 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35986ecc-54d0-452c-a09d-fe19448225c8")
+		(uuid "1779ea8f-1170-47ac-be6e-65dd4d853004")
 	)
 	(label "D7"
 		(at 76.2 95.25 180)
@@ -3027,7 +3001,7 @@
 		)
 		(uuid "47de31b6-63a4-4995-b369-adf2de0da1fc")
 	)
-	(label "D12"
+	(label "PA6"
 		(at 127 88.9 180)
 		(effects
 			(font
@@ -3047,7 +3021,7 @@
 		)
 		(uuid "5319b6be-26f4-4ba4-8554-21ff612f496b")
 	)
-	(label "D13"
+	(label "PA5"
 		(at 104.14 107.95 0)
 		(effects
 			(font
@@ -3055,9 +3029,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6a676c7a-3917-492c-b862-99d032ccff35")
+		(uuid "89254eac-5fa4-4bb0-bbc3-52d254471b67")
 	)
-	(label "D11"
+	(label "PA7"
 		(at 127 81.28 180)
 		(effects
 			(font
@@ -3067,7 +3041,7 @@
 		)
 		(uuid "bb52c6cd-0d17-4886-97ba-04156b974b91")
 	)
-	(label "PA4"
+	(label "D3"
 		(at 127 86.36 180)
 		(effects
 			(font
@@ -3076,6 +3050,16 @@
 			(justify right bottom)
 		)
 		(uuid "ca592f07-a6ea-4622-8228-4a8ab1967cf3")
+	)
+	(label "PA7"
+		(at 104.14 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da4ac7da-ecaf-481c-84fe-3f288120ca49")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3848,7 +3832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT Special:NucleoL432KC"
+		(property "Footprint" "UTSVT STM32:NucleoL432KC"
 			(at 90.17 97.79 0)
 			(effects
 				(font
