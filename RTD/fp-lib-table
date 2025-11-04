@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UTSVT STM32")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/UTSVT_Special.pretty")(options "")(descr ""))
+)
