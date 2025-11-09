@@ -1782,12 +1782,6 @@
 		(uuid "350ecdc0-f276-4baf-ac5b-a4ae88d21db6")
 	)
 	(junction
-		(at 88.9 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37e8b9d5-11ea-4f3a-9a5f-d3f247dc70e8")
-	)
-	(junction
 		(at 212.09 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2043,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 102.87) (xy 88.9 109.22)
+			(xy 88.9 102.87) (xy 88.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 97.79 109.22)
+			(xy 102.87 109.22) (xy 101.6 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2383,13 +2377,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 88.9 109.22)
+			(xy 91.44 109.22) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "917d73b9-ef24-4823-812d-39ee4eca8626")
+		(uuid "8e7b0451-20bd-40af-bc2a-754c3718cdea")
 	)
 	(wire
 		(pts
@@ -2570,16 +2564,6 @@
 			(type default)
 		)
 		(uuid "bc55f761-ff59-4b2c-adca-8df67b385fb0")
-	)
-	(wire
-		(pts
-			(xy 88.9 109.22) (xy 88.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd0ba24f-5a1d-4f7f-b054-717837f9c2a5")
 	)
 	(wire
 		(pts
@@ -3317,6 +3301,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 91.44 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c95f708-2daf-4a91-af36-924e9b16e465")
+		(property "Reference" "#PWR05"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db81e8aa-d244-45f1-878e-140039130e63")
+		)
+		(instances
+			(project "MCU"
+				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/791b08aa-831e-4b43-99fd-f084e643ad78"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/c99b0c29-f7d0-435d-b42f-ec10dff428f4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/56b3f3ef-07ec-480e-b5f8-5a7fd51b01f6/ebe2158f-a1b2-4452-963c-f041e3feae05"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 205.74 100.33 0)
 		(unit 1)
@@ -3472,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 93.98 109.22 90)
+		(at 97.79 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3481,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "78827b66-2e3e-4c05-a7d9-c25dfa47672c")
 		(property "Reference" "FB7"
-			(at 93.9292 101.6 90)
+			(at 97.7392 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3547,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 93.9292 104.14 90)
+			(at 97.7392 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3555,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 93.98 110.998 90)
+			(at 97.79 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_6-22-2022_MH1005_datasheet.pdf"
-			(at 93.98 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 93.98 109.22 0)
+			(at 97.79 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
