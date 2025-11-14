@@ -1,4 +1,4 @@
-26652211706137866
+26648691442212715
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105468,6 +105468,62 @@ igbt diode module
 0
 25
 25
+UTSVT STM32
+ESP32-C6-MINI-1
+ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+ESP32-C6
+0
+61
+53
+UTSVT STM32
+LeaderSOM
+
+
+0
+48
+48
+UTSVT STM32
+NucleoL432KC
+
+
+0
+30
+30
+UTSVT STM32
+SW_CJS-1200TA
+
+
+0
+3
+3
+UTSVT STM32
+SW_SPST_B3SL-1002P
+Middle Stroke Tactile Switch, B3SL
+Middle Stroke Tactile Switch
+0
+4
+4
+UTSVT STM32
+Symbol_HighVoltage_Small
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+0
+0
+0
+UTSVT STM32
+THERM_ERT-J1VR104FM
+
+
+0
+2
+2
+UTSVT STM32
+TestPoint_HEX_3mmID
+
+
+0
+1
+1
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -106252,73 +106308,3 @@ Varistor VF
 0
 2
 2
-stm32
-CDSOT23-T24CAN
-SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
-SOT-23W
-0
-3
-3
-stm32
-CP2102N-A02-GQFN24
-QFN24 *
-Integrated Circuit
-0
-25
-25
-stm32
-D5V0P4UR6SO-7
-D5V0P4UR6SO-7
-TVS Diode (Uni-directional)
-0
-6
-6
-stm32
-EL3H7
-SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-4
-4
-stm32
-LM74501QDDFRQ1
-
-
-0
-8
-8
-stm32
-LM76202QPWPRQ1
-HTSSOP16
-Integrated Circuit
-0
-17
-17
-stm32
-SON65P300X300X100-9N
-
-
-0
-9
-9
-stm32
-TCAN337DCNR
-DCN (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-stm32
-TPS1120DR
-D0008A  SOIC
-Integrated Circuit
-0
-8
-8
-stm32
-TPS2115APW
-
-TPS2115APW 
-0
-8
-8
