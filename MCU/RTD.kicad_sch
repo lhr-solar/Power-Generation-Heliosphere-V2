@@ -1606,7 +1606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 119.888 90)
 			(effects
 				(font
@@ -1673,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 104.648 90)
 			(effects
 				(font
@@ -1811,7 +1811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.9848 74.93 0)
 			(effects
 				(font
@@ -1820,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/KEM_C1002_X7R_SMD.pdf"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -1829,7 +1829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0603 10%"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 110.998 90)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 122.428 90)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 82.55 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033C71C104KE14-01.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/KEM_C1002_X7R_SMD.pdf"
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -2230,7 +2230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7S 0201"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0603 10%"
 			(at 120.65 78.74 0)
 			(effects
 				(font
